@@ -1,0 +1,13 @@
+{
+  "name": "@paun.io/node-addons",
+  "version": "1.0.0",
+  "description": "Node.js addons written in C++ and using node-gyp.",
+  "main": "addon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Petar Paunovic <petar@paun.io>",
+  "license": "ISC",
+  "gypfile": true
+}
